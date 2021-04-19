@@ -57,9 +57,16 @@ a:nth-child(2n + 2):hover {
 .header-logo {
   max-width: 200px;
   z-index: 999;
-  img {
+  .scroll-on-top {
+    padding: 0;
     width: 100%;
-    height: 100%;
+    &:hover {
+      background: none;
+    }
+    img {
+      // width: 100%;
+      height: 100%;
+    }
   }
 }
 

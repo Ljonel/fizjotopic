@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import "../../styles/Header.scss";
-import Burger from "./Burger";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
-  let width = window.innerWidth;
-
   return (
     <div className="header-container">
       <div className="header-nav">
@@ -34,7 +31,13 @@ const Header = () => {
         </div>
       </div>
       <div className="header-logo">
-        <img src="img/logo.png" alt="logo" />
+        <a className="scroll-on-top" href="#top">
+          <img
+            href="#top"
+            src="https://Ljonel.github.io/fizjotopic/img/logo.png"
+            alt="logo"
+          />
+        </a>
       </div>
     </div>
   );
