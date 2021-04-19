@@ -49,8 +49,7 @@ const certificate = certificates.map((cert) => (
     className="card"
     data-lightbox="roadtrip"
   >
-    {(i = cert.id % 2 === 0 ? right : left)}
-    <Fade i>
+    <Fade>
       <div className="card-photo">
         <img
           src={`https://Ljonel.github.io/fizjotopic/img/${cert.id}.jpg`}
