@@ -48,7 +48,10 @@ const certificate = certificates.map((cert) => (
     data-lightbox="roadtrip"
   >
     <div className="card-photo">
-      <img src={`img/${cert.id}.jpg`} alt="" />
+      <img
+        src={`https://Ljonel.github.io/fizjotopic/img/${cert.id}.jpg`}
+        alt=""
+      />
     </div>
     {/* <div className="card-text">
       <h3>{cert.name}</h3>
@@ -62,7 +65,10 @@ const HomePage = () => {
     <>
       <div className="home-container">
         <div className="home-img">
-          <img src="img/unnamed.jpg" alt="" />
+          <img
+            src="https://Ljonel.github.io/fizjotopic/img/unnamed.jpg"
+            alt=""
+          />
         </div>
         <div className="home-hello">
           <div className="home-hello-wrapper">

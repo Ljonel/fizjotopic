@@ -8,7 +8,10 @@ const OfficePage = () => {
       <div className="office-baner">
         <div className="baner-bg">
           <h1>Cennik</h1>
-          <img src="img/office_baner.jpg" alt="baner" />
+          <img
+            src="https://Ljonel.github.io/fizjotopic/img/office_baner.jpg"
+            alt="baner"
+          />
         </div>
       </div>
       <section id="office-price">
@@ -31,7 +34,10 @@ const OfficePage = () => {
       <section id="office-offerts">
         <Fade left delay="1000">
           <div className="offerts-img">
-            <img src="../../img/portrait2.png" alt="" />
+            <img
+              src="https://Ljonel.github.io/fizjotopic/img/portrait2.png"
+              alt=""
+            />
           </div>
         </Fade>
         <Fade right delay="1000">
