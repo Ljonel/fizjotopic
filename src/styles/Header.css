@@ -1,0 +1,75 @@
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: red;
+  width: 70%;
+  height: 100%;
+}
+
+.header-nav .header-nav-title {
+  height: 70%;
+  background: yellow;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-nav .header-nav-title h1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: "#61D0D4";
+}
+
+.header-nav .header-nav-title h1 span {
+  color: "#FFAF38";
+}
+
+.header-nav .header-nav-menu {
+  height: 30%;
+  background: #9494e0;
+}
+
+.header-nav .header-nav-menu ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo {
+  background: blue;
+  min-width: 200px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Header.css.map */
