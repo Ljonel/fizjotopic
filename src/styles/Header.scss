@@ -94,3 +94,17 @@ li {
     }
   }
 }
+
+@media (max-width: 350px) {
+  .header-logo {
+    padding: 30px 10px;
+  }
+  .header-nav {
+    .header-nav-title {
+      margin-left: 15%;
+      h1 {
+        font-size: 38px;
+      }
+    }
+  }
+}
