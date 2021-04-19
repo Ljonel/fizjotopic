@@ -31,7 +31,7 @@ const OfficePage = () => {
       <section id="office-offerts">
         <Fade left delay="1000">
           <div className="offerts-img">
-            <img src="img/portrait2.png" alt="" />
+            <img src="./img/portrait2.png" alt="" />
           </div>
         </Fade>
         <Fade right delay="1000">
