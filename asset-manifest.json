@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fizjotopic/static/css/main.4d1305ab.chunk.css",
+    "main.css": "/fizjotopic/static/css/main.f0a0ac07.chunk.css",
     "main.js": "/fizjotopic/static/js/main.de035d56.chunk.js",
     "main.js.map": "/fizjotopic/static/js/main.de035d56.chunk.js.map",
     "runtime-main.js": "/fizjotopic/static/js/runtime-main.e0d05387.js",
@@ -10,13 +10,13 @@
     "static/js/3.7247cb7c.chunk.js": "/fizjotopic/static/js/3.7247cb7c.chunk.js",
     "static/js/3.7247cb7c.chunk.js.map": "/fizjotopic/static/js/3.7247cb7c.chunk.js.map",
     "index.html": "/fizjotopic/index.html",
-    "static/css/main.4d1305ab.chunk.css.map": "/fizjotopic/static/css/main.4d1305ab.chunk.css.map",
+    "static/css/main.f0a0ac07.chunk.css.map": "/fizjotopic/static/css/main.f0a0ac07.chunk.css.map",
     "static/js/2.d2431d9c.chunk.js.LICENSE.txt": "/fizjotopic/static/js/2.d2431d9c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e0d05387.js",
     "static/js/2.d2431d9c.chunk.js",
-    "static/css/main.4d1305ab.chunk.css",
+    "static/css/main.f0a0ac07.chunk.css",
     "static/js/main.de035d56.chunk.js"
   ]
 }
