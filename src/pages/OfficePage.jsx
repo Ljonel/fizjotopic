@@ -31,13 +31,13 @@ const OfficePage = () => {
       <section id="office-offerts">
         <Fade left delay="1000">
           <div className="offerts-img">
-            <img src="../img/portrait2.png" alt="" />
+            <img src="../../img/portrait2.png" alt="" />
           </div>
         </Fade>
         <Fade right delay="1000">
           <div className="offerts-text">
             <div className="text-wrapper">
-              <h3> Dobrze trafiłeś, chętnie pomogę! Mogę zaoferować:</h3>
+              <h3> DobrzE trafiłeś, chętnie pomogę! Mogę zaoferować:</h3>
               <ul>
                 <li>masaż klasyczny</li>
                 <li>masaż powięziowy</li>
