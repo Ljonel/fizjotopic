@@ -37,7 +37,7 @@ const OfficePage = () => {
         <Fade right delay="1000">
           <div className="offerts-text">
             <div className="text-wrapper">
-              <h3> DobrzE trafiłeś, chętnie pomogę! Mogę zaoferować:</h3>
+              <h3> DObRzE trafiłeś, chętnie pomogę! Mogę zaoferować:</h3>
               <ul>
                 <li>masaż klasyczny</li>
                 <li>masaż powięziowy</li>
