@@ -24,7 +24,8 @@ function App() {
         <Switch>
           <Route
             render={({ location }) =>
-              ["/", "fizjotopic", "/blog", "/gabinet", "/contact"].includes(
+              ["/", "fizjotopic", "/gabinet", "/contact"].includes(
+                //"/blog"
                 location.pathname
               ) ? (
                 <Footer />

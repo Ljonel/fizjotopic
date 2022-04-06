@@ -30,15 +30,56 @@ const certificates = [
     name: "Rehaintegro",
     text: "Podstawy terapii manualnej",
   },
-  // {
-  //   id: 6,
-  //   name: "Premium Sport Academy",
-  //   text: "Sports anatomy",
-  // },
+
   {
     id: 7,
     name: "Fit-academy",
     text: "Trener personalny",
+  },
+  {
+    id: 8,
+    name: "REHexpo",
+    text: "Symbioza fizjoterapii",
+  },
+  {
+    id: 9,
+    name: "Projekt masaż",
+    text: "Neuro-Bark",
+  },
+  {
+    id: 10,
+    name: "Bark",
+    text: "dr Biernat",
+  },
+  {
+    id: 11,
+    name: "Biodro",
+    text: "dr Biernat",
+  },
+  {
+    id: 12,
+    name: "Kolano",
+    text: "dr Biernat",
+  },
+  {
+    id: 13,
+    name: "Obręcz barkowa",
+    text: "Sport klinika",
+  },
+  {
+    id: 14,
+    name: "Certyfikat",
+    text: "PFS",
+  },
+  {
+    id: 15,
+    name: "Certyfikat",
+    text: "Rehaintegro",
+  },
+  {
+    id: 10,
+    name: "dr Biernat",
+    text: "Stopa",
   },
 ];
 
@@ -52,15 +93,11 @@ const certificate = certificates.map((cert) => (
     <Fade>
       <div className="card-photo">
         <img
-          src={`https://Ljonel.github.io/fizjotopic/img/${cert.id}.jpg`}
+          src={process.env.PUBLIC_URL + `/img/${cert.id}.jpg`} //`https://Ljonel.github.io/fizjotopic/img/${cert.id}.jpg`
           alt=""
         />
       </div>
     </Fade>
-    {/* <div className="card-text">
-      <h3>{cert.name}</h3>
-      <p>{cert.text}</p>
-    </div> */}
   </div>
 ));
 
@@ -70,10 +107,7 @@ const HomePage = () => {
       <div className="home-container">
         <Fade left>
           <div className="home-img">
-            <img
-              src="https://Ljonel.github.io/fizjotopic/img/unnamed.jpg"
-              alt=""
-            />
+            <img src={process.env.PUBLIC_URL + "/img/portrait.jpg"} alt="" />
           </div>
         </Fade>
 
@@ -84,8 +118,8 @@ const HomePage = () => {
               <h3>FizjoTopic!</h3>
             </div>
             <div className="home-hello-circles">
-              <div className="circle">Umiejętności</div>
-              <div className="circle">Zainteresowania</div>
+              <div className="circle"></div>
+              <div className="circle"></div>
             </div>
           </Fade>
         </div>
@@ -93,59 +127,45 @@ const HomePage = () => {
       <section className="aboutme">
         <Fade left>
           <p>
-            <b>Cześć!</b> <br /> Mam na imię Kacper i jestem studentem III roku
-            fizjoterapii na AWF w Katowicach. Już na pierwszym roku studiów
-            zainteresowałem się anatomią. Mimo, że na początku nic z niej nie
-            rozumiałem, było coś takiego co mnie do niej przyciągało. Dopiero po
-            poznaniu innych dziedzin takich jak fizjologia, biomechanika,
-            biochemia zdałem sobie sprawę, że przecież to wszystko łączy się w
-            całość! Cegiełkę do zrozumienia przeze mnie tego tematu dołożył
-            wykład o powięzi, która okazała się łącznikiem wszystkiego w naszym
-            ciele! Zaskoczeni? Ja też byłem! Aż tak bardzo się nią
-            zafascynowałem, że zacząłem o niej czytać książki aby ją lepiej
-            zrozumieć
+            <b>Cześć!</b> <br />
+            Mam na imię Kacper i jestem studentem IV roku fizjoterapii na AWF w
+            Katowicach. Interesuję się anatomią oraz powięzią. Oprócz tego
+            bardzo lubię terapię manualną, a to wszystko staram się połączyć z
+            treningiem.
           </p>
         </Fade>
         <Fade right>
           <p>
             <b>Dlatego też tu jestem!</b> <br />
             Chciałbym Was zafascynować poznawaniem naszego ciała oraz przybliżyć
-            temat szeroko rozumianej fizjoterapii. Dlatego jeśli zachęce Was do
-            fizjoterapii to wszyscy na tym skorzystamy! Ciągle uczę się czegoś
-            nowego i to również będę zamieszczał na moich profilach. Tutaj od
-            czasu do czasu znajdziecie dłuższy wpis na blogu, którego
-            przeczytanie jednak zajmie dłuższą chwilkę. Zapraszam więc do
-            wspólnej nauki! Nie bez przyczyny nazwa FizjoTopic, ponieważ będą
-            tutaj poruszane tematy związane z fizjoterapią. Chciałbym wam
+            temat szeroko rozumianej fizjoterapii. Na stronie od czasu do czasu
+            znajdziecie dłuższy wpis na blogu, którego przeczytanie jednak
+            zajmie dłuższą chwilkę. Nie bez przyczyny nazwa FizjoTopic, ponieważ
+            będą tutaj poruszane tematy związane z fizjoterapią. Chciałbym Wam
             również pomóc odnaleźć przyczynę waszych problemów oraz metody,
-            które mogą przy nich pomóc. Osobiście interesuję się terapią
-            manualną i terapią powięziową. Na człowieka natomiast staram się
-            patrzeć holistycznie aby połączyć wszystkie układy w jedną całość!
+            które mogą przy nich być skuteczne. Od małego byłem zafascynowany
+            sportem i próbowałem wielu dyscyplin. Ale to sporty walki i trening
+            funkcjonalny skradły moje serce i pozostaje tak do dziś. Jestem
+            byłym zawodnikiem karate Kyokushin (posiadam brązowy pas) oraz
+            trenerem personalnym.Znajdziecie więc tu czasami również co nieco o
+            treningu.
           </p>
         </Fade>
+
         <Fade left>
           <p>
-            Jestem również byłym zawodnikiem karate <b>Kyokushin</b> (posiadam
-            brązowy pas ) oraz <b>trenerem personalnym</b>. Od małego byłem
-            zafascynowany sportem i próbowałem wielu dyscyplin. Trenowałem nawet
-            rugby oraz koszykówkę. Ale to sporty walki i trening funkcjonalny
-            skradły moje serce i pozostaje tak do dziś. Na moich profilach
-            najdziecie więc również ciekawe informacje odnośnie treningu,
-            zdrowego stylu życia oraz przykłady ćwiczeń. Jeśli więc macie jakiś
-            problemy związane z treningiem, zapraszam do zadawania pytań.
-          </p>
-        </Fade>
-        <Fade right>
-          <p>
-            Myślę, że tematyka, którą będę zamieszczał na swoich mediach
+            <b>Myślę, że tematyka </b> którą będę zamieszczał na swoich mediach
             społecznościowych zainteresuje każdego. Od studenta fizjoterapii po
-            amatora sportu lub przeciętnego Kowalskiego!
+            amatora sportu lub przeciętnego Kowalskiego! Dlatego serdecznie Was
+            zapraszam do śledzenia na bieżąco! Jeśli natomiast coś Ci doskwiera
+            to zapraszam do zakładki gabinet! Poniżej natomiast znajdziesz moje
+            certyfikaty.
           </p>
         </Fade>
       </section>
 
       <section className="certificates">
-        <h1>Certyfikaty i dymplomy</h1>
+        <h1>Certyfikaty i dyplomy</h1>
         <SRLWrapper>
           <div className="cards-container">{certificate}</div>
         </SRLWrapper>

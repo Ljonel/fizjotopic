@@ -34,7 +34,7 @@ const Header = () => {
         <a className="scroll-on-top" href="#top">
           <img
             href="#top"
-            src="https://Ljonel.github.io/fizjotopic/img/logo.png"
+            src={process.env.PUBLIC_URL + `/img/logo.png`}
             alt="logo"
           />
         </a>

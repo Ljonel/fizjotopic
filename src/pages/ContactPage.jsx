@@ -5,20 +5,28 @@ const ContactPage = () => {
     <>
       <div className="contact-wrapper">
         <h1>Kontakt</h1>
-        {/* <div className="social-icons">
-          <a className="contact-link" href="https://www.youtube.com">
-            <i className="fas fa fa-youtube"></i>
-          </a>
-          <a className="contact-link" href="https://www.facebook.com">
-            <i className="fas fa fa-facebook"></i>
-          </a>
-          <a className="contact-link" href="https://www.instagram.com">
-            <i className="fas fa fa-instagram"></i>
-          </a>
-        </div> */}
-        <p>
-          <strong>E-mail</strong>: fizjotopic@gmail.com
-        </p>
+        <ul>
+          <li>
+            <p>E-mail: fizjotopic@gmail.com</p>
+          </li>
+          <li>
+            <p className="contact-options">
+              wiadomości na
+              <a target="_blank" href="https://www.facebook.com/fizjotopic">
+                Facebook
+              </a>
+              lub
+              <a target="_blank" href="https://www.instagram.com/fizjotopic">
+                Instagram
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              SMS na numer <strong>608 417 253</strong>
+            </p>
+          </li>
+        </ul>
       </div>
     </>
   );
